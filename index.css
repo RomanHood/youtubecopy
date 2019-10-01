@@ -1,6 +1,7 @@
 .header {
   width: 100%;
   min-height: 50px;
+  max-height: 50px;
   top: 0;
   border: 1px solid black;
 }
@@ -25,4 +26,18 @@
   width: 85%;
   height: 100%;
   background-color: blue;
+}
+
+svg { 	
+	pointer-events: none;
+    	display: block;
+   	width: 150px;
+    	height: 25px;
+    	margin-top: 10px; 
+}
+
+.side-bar-left ul{
+	list-style-type: none;
+	
+	
 }
